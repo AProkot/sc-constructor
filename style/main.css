@@ -1,0 +1,286 @@
+/*Цветовая схема - https://colorscheme.ru/#2Y11Tw0w0w0w0*/
+/*#f7effb - самый светлый
+#eddbf6
+#e3c6f1
+#d8b2ec*/
+@font-face {
+    font-family: "Tenoture";
+    src: url("fonts/logo-font.ttf");
+}
+
+.body {
+    background-color: white;
+}
+
+/* Шапка страницы*/
+.page_top{
+    /*background-color: #92d9e4;*/
+    background-color: #5d2080;
+    height: 13vh;
+}
+
+.logo{
+    width: 11vh;
+    height: 11vh;
+    margin-left: 27vw;
+    margin-top: 1vh;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-size: 5vh;
+    color: #f5f5f5;
+    font-family: "Tenoture", sans-serif;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.subpanel{
+    background-color: #7a2aa9;
+    height: 7vh;
+}
+
+/*Меню*/
+#navbar {
+    margin: 1vh;
+    padding: 0;
+    list-style-type: none;
+    width: 100vw;
+    text-align: center;
+}
+#navbar li {
+    display: inline;
+    margin-right: 3vh;
+}
+#navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 10vw;
+}
+#navbar a:hover {
+    border-radius: 1vh;
+    background-color: #5d2080;
+}
+
+#navbar .current {
+    border-radius: 1vh;
+    background-color: #5d2080;
+}
+
+/*Основная часть страницы*/
+.main{
+    margin-top: 5vh;
+}
+
+.left_col{
+    border-right: 1vh solid #5d2080;
+}
+
+h2, .languageButtons{
+    text-align: center;
+}
+
+h4{
+    font-size: 9vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+/* Ввод параметров*/
+
+.push{
+    background-color: #eddbf6;
+    width: 25vw;
+    position: absolute;
+    left: 230px;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #5d2080;
+}
+
+.push_head{
+    background-color: #5d2080;
+    padding: 1.5vh;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #5d2080;
+    border-right: 0vh;
+    color: white;
+}
+.push_head h3{
+    font-size: 4.2vh;
+}
+.cross_image{
+    display: inline;
+    width: 3.5vh;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.push_body{
+    padding: 2vh;
+}
+
+.submitType {
+    position: relative;
+    left: 10px;
+
+}
+/*Аккордеоны*/
+.clickable{
+    cursor: pointer;
+}
+
+.accordeon_block{
+    width: 390px;
+    background-color: #f7effb;
+    margin-bottom:2vh;
+}
+
+.accordeon_block > h3{
+    width: 100%;
+    background-color: #e3c6f1;
+    font-size: 4vh;
+    border-radius: 0.5vh;
+    padding: 1.5vh;
+}
+
+block{
+    width: 100%;
+    padding: 15px;
+    border-radius: 0.5vh;
+    display: none;
+}
+
+
+/*404*/
+.btn404 {
+    width: 25vw;
+    height: 20vh;
+    background: #5d2080;
+    border-radius: 1vh;
+    display: inline-block;
+    margin: 3vw;
+    font-size: 7vh;
+}
+.btn404 a {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding: 6vh;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn404 a:hover {
+    border-radius: 1vh;
+    background-color: #7a2aa9;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#btn1 {
+    width: 15vw;
+    height: 7vh;
+    font-size: 3vh;
+}
+
+#btn1 a{
+    padding:1vh;
+}
+/*Вход и регистрация*/
+.password_requires{
+    font-size: 1.8vh;
+}
+
+#err_msg{
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    width: 20vw;
+}
+
+/*Создание контракта*/
+#contractName {
+    width: 50%;
+}
+
+.ti1{
+    padding-left: 15px;
+}
+
+.ti2{
+    padding-left: 30px;
+}
+
+.ati1{
+    padding-right: 15px;
+}
+
+.ti3 {
+    padding-left: 45px;
+}
+
+#questionBlock.push{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    width: 700px;
+}
+
+.cross_image.blockRemovingCross {
+    position: relative;
+}
+
+.structItemRemovingCross {
+    position: relative;
+    width: 6%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.codeBlock{
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+}
+
+.structTypePlace{
+    display: inline-block;
+}
+
+.structNamePlace{
+    display: inline-block;
+}
+
+h3{
+    text-align: center;
+}
+
+.leftBlock{
+    display: inline-block;
+    float: left;
+    margin: 5px;
+}
+
+.rightBlock{
+    display: inline-block;
+    float: right;
+    margin: 5px;
+}
+
+.contract{
+    background-color: #eddbf6;
+    margin-top:30px;
+    padding: 20px;
+}
+
+.invisibleBlock{
+    display: none;
+}
